@@ -25,8 +25,9 @@ const customParser = require('jsObjectString-to-jsObject');
 // test string
 const objString = '{ 'url' : "http://google.com" }';
 
-const result = customParser.toObject(objString);
+const result = customParser(objString);
 ```
 
 > For a correct input, output is 100% correct.  
-> For an incorrect input, you may get an undesired output/error.
+> For an incorrect input, you may get an undesired output/error.  
+> For an Error, `null` is returned.
