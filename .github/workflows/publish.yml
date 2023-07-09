@@ -1,18 +1,16 @@
 name: "🚀 release"
 
 on:
-  push:
-    branches:
-      - main
+    push:
+        branches:
+          - main
 
 jobs:
-  release:
-    name: 🚀 release
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🚀 publish
-        run: |
-          cd ${{ github.workspace }}
-          npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+    release:
+        name: 🚀 release
+        runs-on: ubuntu-latest
+        steps:
+            - name: 🚀 publish
+              run: npm publish --access public
+              env:
+                  NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
