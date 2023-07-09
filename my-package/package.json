@@ -1,6 +1,6 @@
 {
   "name": "@madhavanand/object-string-to-object",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Converts/Parses the JavaScript Object in String Type to JavaScript Object.",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,23 @@
     "url": "git+https://github.com/madhavanand-github/jsObjectString-to-jsObject.git"
   },
   "keywords": [
-    "npm",
-    "jsobjectstring-to-jsobject"
+    "JavaScript Object",
+    "Object Conversion",
+    "String to Object",
+    "Object Parsing",
+    "Object Transformation",
+    "JSON Parser",
+    "Object Utility",
+    "Object Conversion Tool",
+    "Object String Converter",
+    "Object Serialization",
+    "JavaScript Utilities",
+    "Data Transformation",
+    "JSON String Parsing",
+    "String Processing",
+    "Object Manipulation",
+    "json-string-json",
+    "json-string"
   ],
   "author": "Madhav Anand",
   "license": "MIT",
